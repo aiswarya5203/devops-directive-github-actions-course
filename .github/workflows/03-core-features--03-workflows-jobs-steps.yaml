@@ -6,7 +6,7 @@ jobs:
   job-1:
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "A job consists of"
+      - run: echo "A job consists of!"
       - run: echo "one or more steps"
       - run: echo "which run sequentially"
       - run: echo "within the same compute environment"
