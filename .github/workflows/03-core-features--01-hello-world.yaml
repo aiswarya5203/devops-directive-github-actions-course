@@ -5,6 +5,6 @@ on:
 
 jobs:
   say-inlline-bash:
-    runs-on: ubuntu
+    runs-on: ubuntu-22.04
     steps: 
       - run: echo "Hello!! from an inline bash script in a Github Action workflow"
