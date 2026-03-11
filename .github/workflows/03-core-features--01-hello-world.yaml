@@ -1,10 +1,10 @@
 name: Hello World
-
+run-name : "ubuntu-100 fail case"
 on: 
   workflow_dispatch:
 
 jobs:
   say-inlline-bash:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-100
     steps: 
       - run: echo "Hello!! from an inline bash script in a Github Action workflow"
